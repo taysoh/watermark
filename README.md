@@ -12,7 +12,7 @@ $ cd watermark/
   2. Create new environment and install depends
 
 ```sh
-$ virtualenv .env && .env/bin/activate && pip install -r requirements.txt
+$ virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
 
 ```
   3. Create database database.
@@ -23,7 +23,7 @@ $ python manage.py migrate
 ```sh
 $ python manage.py runserver
 ```
-  - Open the project in browser on **http://127.0.0.1:8000/add_mark/?url=<url>&order_hash=<hash>
+  - Open the project in browser on **http://127.0.0.1:8000/add_mark/?url=<url>&order_hash=<hash>**
 
-  Replace <url> and <hash with real data>
+  Replace **<url>** and **<hash>** with real data
 
