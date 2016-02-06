@@ -1,3 +1,6 @@
+# watermark
+Add watermark to *.epub files
+
 # How to run
 
   1. Clone the repository using ssh:
@@ -23,3 +26,4 @@ $ python manage.py runserver
   - Open the project in browser on **http://127.0.0.1:8000/add_mark/?url=<url>&order_hash=<hash>
 
   Replace <url> and <hash with real data>
+
